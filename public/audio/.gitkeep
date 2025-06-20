@@ -1,0 +1,7 @@
+# Audio Files Directory
+
+Place your funeral march audio files here:
+- funeral-march.mp3
+- funeral-march.ogg (optional, for better browser compatibility)
+
+The game will automatically try to load these files when it starts. 

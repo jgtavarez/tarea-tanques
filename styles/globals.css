@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #1a1a1a;
+  color: white;
+  overflow: hidden;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+}
+
+.game-header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 15px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.student-info {
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.game-canvas {
+  border: 3px solid #3498db;
+  border-radius: 10px;
+  background: #34495e;
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
+}
+
+.game-ui {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.timer {
+  font-size: 18px;
+  color: #e74c3c;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.lives {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: #2c3e50;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid #3498db;
+  max-width: 400px;
+  width: 90%;
+}
+
+.modal h2 {
+  color: #3498db;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.modal p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.controls h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.controls p {
+  margin-bottom: 5px;
+} 
